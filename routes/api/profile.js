@@ -470,6 +470,7 @@ router.put('/education/update/:ed_id', [auth, [
 router.delete('/education/:edu_id', auth, async (req, res) => {
   try {
     let profile = await Profile.findOne({ user: req.user.id });
+    
     // Get remove index
     const removeIndex = profile.education.map(item => item.id).indexOf(req.params.edu_id);
 
