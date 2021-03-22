@@ -1,4 +1,6 @@
 {
   "mongoURI": "mongodb+srv://wahola45:wahola45@devconnector.jvyt8.mongodb.net/SocialDev?retryWrites=true&w=majority",
-  "jwtSecret": "eyJhbGciOiJIUzI1NiIsInR5cCIWzYdPq7bPwaI"
+  "jwtSecret": "eyJhbGciOiJIUzI1NiIsInR5cCIWzYdPq7bPwaI",
+  "githubClientId": "636ebb8250f27c121802",
+  "githubSecret": "09e9b25c008f6ed12053bbabe445e5f446fa4a4e"
 }
